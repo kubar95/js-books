@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+/**Simple colors**/
+$color-white: #ffffff;
+$color-black: #000000;
+$color-grey-238: rgb(238,238,238);
+$color-grey-215: rgb(215,215,215);
+$color-grey-215-70: rgba(215,215,215,0.7);
+$color-grey-204: rgb(204,204,204);
+$color-grey-170: rgb(170,170,170);
+$color-grey-170-70: rgba(170, 170, 170, 0.7);
+$color-grey-153: rgb(153,153,153);
+$color-yellow: rgb(250,216,74);
+$color-red: rgb(235,51,36);
+
+/** Background colors **/
+$color-background-page: $color-grey-238;
+$color-background-modal: $color-grey-215-70;
+/** Border colors **/
+
+$color-border-grey: $color-grey-204;
+$color-border-red: $color-red;
+
+/** Text colors **/
+$color-text-default: $color-black;
+$color-text-counter: $color-grey-215;
+$color-text-info-label: $color-grey-153;
+$color-text-red-link: $color-red;
+
+
+
+/** General Font family and text size properties **/
+
+$font-family-default: 'Lato', sans-serif;
+
+/** Button colors **/
+$reset-btn: $color-grey-170;
+$reset-btn-a: $color-grey-170-70;
+
+/** z-index **/
+$z-modal: 100;
+
+/** Breakpoints **/
+$breakpoint-small: 576px;
+$breakpoint-medium: 768px;
+$breakpoint-large: 992px;
+$breakpoint-extra-large: 1200px;

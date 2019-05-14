@@ -1,0 +1,12 @@
+.page-aside{
+    margin: 0 30px;
+    font-size: 1.1em;
+}
+@media (min-width: $breakpoint-large){
+    .page-aside{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+}

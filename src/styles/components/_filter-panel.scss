@@ -1,0 +1,13 @@
+.filter-panel{
+    border-bottom: 1px solid $color-border-grey;
+    &__options{
+        padding: 0px;
+    }
+    &__input{
+        width: 50px;
+        height: 30px;
+        margin: 0px 5px;
+        text-align: center;
+        border: none;
+    }
+}

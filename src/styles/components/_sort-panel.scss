@@ -1,0 +1,10 @@
+.sort-panel{
+    border-bottom: 1px solid $color-border-grey;
+    &__options{
+        padding: 0px;
+      
+    }
+    &__input{
+       margin-right: 5px;
+    }
+}

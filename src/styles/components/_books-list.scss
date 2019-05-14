@@ -1,0 +1,128 @@
+.books-list{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    counter-reset: list-counter;
+    padding: 0px;
+    font-size: 11px;
+    &__item{
+        box-sizing: border-box;
+        width: 100%;
+        padding-left: 50px;
+        margin-bottom: 50px;
+        position: relative;
+        display: flex;
+        &:before{
+            position: absolute;
+            content: counter(list-counter);
+            counter-increment: list-counter;
+            left: 0px;
+            color: $color-text-counter;
+            font-weight: 700;
+            font-size: 50px;
+        }
+    }
+    &__img-container{
+        width: 40%;
+    }
+    &__info{
+        box-sizing: border-box;
+        padding-left:10px;
+        width: 60%;
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    &__img{
+        max-width: 180px; 
+        width: 100%;
+        height: auto;
+    }
+    &__book-name{
+        width: 100%;
+        margin: 20px 0px;
+        font-weight: 700;
+        font-size: 1.2em;
+    }
+    &__classifier{
+        width: 100%;
+        height: 0px;
+        display: flex;
+        justify-content: center;
+        &--border-red{
+            width: 50px;
+            border: solid 2px $color-border-red;
+        }
+    }
+    &__author{
+        width: 100%;
+        margin: 20px;
+        font-style: italic;
+        font-size: 1.1em;
+     
+    }
+    &__info-label, &__pages-amount, &__release-date, &__shop-link{
+        font-size: 0.9em;
+        font-weight: bold;
+        font-style: italic;
+        color: $color-text-info-label;
+    }
+    &__info-label{
+        width: 50%;
+        text-align: right;
+        box-sizing: border-box;
+        padding-right: 7px;
+         
+     }
+     &__pages-amount, &__release-date, &__shop-link{
+         width: 50%;
+         text-align: left;
+     } 
+     &__shop-link--red{
+         text-decoration: none;
+         color: $color-text-red-link;
+         border-bottom: dashed 1px $color-border-red;
+     }
+     
+   
+}
+
+
+@media (min-width: $breakpoint-medium){
+    .books-list{
+        font-size: 16px;
+        margin-top: 50px;
+        &__item{
+            padding:40px;
+            width: 50%;
+            display: block;
+            text-align: center;
+            margin-bottom: 0px;
+            &:before{
+                top: -10px;
+
+            }
+        }
+        &__img-container{
+            width: 100%;
+        }
+        &__info{
+            box-sizing: border-box;
+            padding-left:0px;
+            width: 100%;
+        }
+        &__book-name{
+            margin-top: 15px;
+        }
+
+    }
+}
+@media (min-width: $breakpoint-extra-large){
+    .books-list{
+        &__item{
+            width: 33.3%;
+        }
+    }
+}

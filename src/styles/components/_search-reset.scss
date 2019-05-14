@@ -1,0 +1,18 @@
+.search-reset{
+    margin: 15px 0px;
+    text-align: center;
+    &__btn{
+        font-size: 1em;
+        width: 120px;
+        height: 50px;
+        border:none;
+        background-color: $reset-btn;
+        color: $color-white;
+        border-radius: 10px;
+        outline: none;
+        &:active{
+            outline: none;
+            background-color: $reset-btn-a;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.page-header {
+  width: 100%;
+  border-bottom: 2px dashed $color-border-grey;
+  padding-bottom: 40px;
+  &__title{
+    margin: 20px 0px 0px 20px;
+    position: relative;
+    &--yellow-square{
+    display: inline-block;
+    position: relative;
+    text-align: right;
+    vertical-align: bottom;
+    width: 55px;
+    height: 55px;
+    background-color: $color-yellow;
+  }
+    &--text-in-square{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    vertical-align: bottom;
+  }
+}
+}
