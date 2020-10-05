@@ -2,7 +2,7 @@ const filterItemsList = (itemsList, elementContainingFilterProperty, filterValue
     if (!Number.isInteger(filterValue))
         filterValue = parseInt(filterValue)
     for (let item of itemsList) {
-        let booksPageAmount = item.getElementsByClassName(elementContainingFilterProperty)[0].innerText;
+        const booksPageAmount = item.getElementsByClassName(elementContainingFilterProperty)[0].innerText;
         if (booksPageAmount <= filterValue)
             item.style.display = "none"
         else {

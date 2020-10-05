@@ -38,7 +38,7 @@
     &__img{
         max-width: 180px; 
         width: 100%;
-        height: auto;
+        max-height: 236px;
     }
     &__book-name{
         width: 100%;
@@ -51,9 +51,10 @@
         height: 0px;
         display: flex;
         justify-content: center;
-        &--border-red{
+        &--background-red{
             width: 50px;
-            border: solid 2px $color-border-red;
+            background-color: $color-border-red;
+            height: 3px;
         }
     }
     &__author{
@@ -64,7 +65,7 @@
      
     }
     &__info-label, &__pages-amount, &__release-date, &__shop-link{
-        font-size: 0.9em;
+        font-size: 1em;
         font-weight: bold;
         font-style: italic;
         color: $color-text-info-label;
@@ -116,7 +117,14 @@
         &__book-name{
             margin-top: 15px;
         }
+    }
+}
 
+@media (min-width: $breakpoint-large) {
+    .books-list {
+        &__info-label, &__pages-amount, &__release-date, &__shop-link {
+            font-size: 0.9em;
+        }
     }
 }
 @media (min-width: $breakpoint-extra-large){

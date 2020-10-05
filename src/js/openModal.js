@@ -1,7 +1,6 @@
-var modal = document.getElementsByClassName('modal')[0]
-var modalCloseBtn = document.getElementsByClassName('modal__close-btn')[0]
-var modal = document.getElementsByClassName('modal')[0]
-var modalImage = document.getElementsByClassName('modal__img')[0]
+const modal = document.getElementsByClassName('modal')[0]
+const modalCloseBtn = document.getElementsByClassName('modal__close-btn')[0]
+const modalImage = document.getElementsByClassName('modal__img')[0]
 
 const openModal = (event) => {
   const selctedImgParentHref = event.target.parentNode.getAttribute("href");

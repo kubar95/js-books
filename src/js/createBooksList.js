@@ -1,5 +1,5 @@
 
- const createBooksList = (books) => {
+const createBooksList = (books) => {
     const booksList = document.getElementsByClassName('books-list')[0]
     books.forEach(e => {
         booksList.innerHTML += `   
@@ -11,7 +11,7 @@
         </div>
         <div class="books-list__info">
             <div class="books-list__book-name"> ${e.title} </div>
-            <div class="books-list__classifier"><div class="books-list__classifier--border-red"></div></div>
+            <div class="books-list__classifier"><div class="books-list__classifier--background-red"></div></div>
             <div class="books-list__author">By ${e.author}</div>
             <div class="books-list__info-label">Release Date:</div> 
             <div class="books-list__release-date">${e.releaseDate}</div>

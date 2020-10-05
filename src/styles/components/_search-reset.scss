@@ -14,5 +14,9 @@
             outline: none;
             background-color: $reset-btn-a;
         }
+        &--active {
+            cursor: pointer;
+            background-color: $reset-btn-active;
+        }
     }
 }
