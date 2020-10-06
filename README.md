@@ -26,7 +26,6 @@ npm start
 ```
 
 ## Features
-List of features ready and TODOs for future development
 * Applied filtering and sorting persists even if the page is refreshed (sessionstorage) 
-* Filtering and sorting can be cleared by pressing alt + r
+* Filtering and sorting can be cleared by pressing `alt + r`
 
