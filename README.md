@@ -11,10 +11,11 @@ RWD application showing a collection of books for learning JavaScript. It was wr
 ## Demo
 Working demo: https://kubar95.github.io/js-books/
 ## Screenshots
-![Laptop](./screenshots/laptop.png)
-![Tablet](./screenshots/tablet.png)
-![Mobile](./screenshots/mobile.png)
-
+<p style="display:flex">
+<img alt="mobile" src="./screenshots/mobile.png" style="padding: 0 5px" />
+<img alt="tablet" src="./screenshots/tablet.png" style="padding: 0 5px" />
+<img alt="laptop" src="./screenshots/laptop.png" style="padding: 0 5px" />
+<p>
 
 ## Technologies
 * JavaScript ES6
@@ -28,11 +29,6 @@ $ npm start
 
 ## Features
 List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
-
-To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Applied filtering and sorting persists even if the page is refreshed (sessionstorage) 
+* Filtering and sorting can be cleared by pressing alt + r
 
