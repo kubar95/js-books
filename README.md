@@ -11,11 +11,7 @@ RWD application showing a collection of books for learning JavaScript. It was wr
 ## Demo
 Working demo: https://kubar95.github.io/js-books/
 ## Screenshots
-<p style="display:flex">
-<img alt="mobile" src="./screenshots/mobile.png" style="padding: 0 5px" />
-<img alt="tablet" src="./screenshots/tablet.png" style="padding: 0 5px" />
-<img alt="laptop" src="./screenshots/laptop.png" style="padding: 0 5px" />
-<p>
+![](./screenshots/RWD_gif.gif)
 
 ## Technologies
 * JavaScript ES6
@@ -24,8 +20,10 @@ Working demo: https://kubar95.github.io/js-books/
 * Mocha / chai
 
 ## Setup
-$ npm install
-$ npm start
+```bash
+npm install
+npm start
+```
 
 ## Features
 List of features ready and TODOs for future development
